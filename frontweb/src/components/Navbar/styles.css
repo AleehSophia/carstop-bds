@@ -1,10 +1,17 @@
 .main-nav {
-    padding-left: 150px;
+    padding-left: 20px;
     min-height: 70px;
 }
 
 .nav-logo-text, .nav-logo-text:hover {
     color: #00285F;
+    height: 28px;
+}
+
+#carstop-navbar {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 154px;
 }
 
 .main-menu {
@@ -35,4 +42,10 @@
 
 .nav-logo-text h4 {
     font-weight: 700;
+    font-size: 24px;
+    color: #00285F;
+}
+
+.navbar-light {
+    color: #00285F;
 }

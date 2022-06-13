@@ -1,13 +1,12 @@
-import Navbar from 'components/Navbar';
+import Home from 'pages/Home';
 import './App.css';
 import './assets/styles/custom.scss';
 
 function App() {
   return (
     <>
-      <Navbar />
-      <h1>Página inicial</h1>
-      </>
+      <Home />
+    </>
   );
 }
 
